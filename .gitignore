@@ -1,7 +1,7 @@
 # Portfolio Files
 
 # Sensitive configuration (DO NOT PUSH)
-smtp_config.php
+vendor/phpmailer/smtp_config.php
 database.php
 .env
 .env.local

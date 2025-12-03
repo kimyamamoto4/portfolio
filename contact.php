@@ -85,8 +85,8 @@ try {
 */
 
 // ===== Send email using SMTP =====
-require_once 'smtp_mailer.php';
-$smtp_config = require 'smtp_config.php';
+require_once __DIR__ . '/vendor/phpmailer/smtp_mailer.php';
+$smtp_config = require __DIR__ . '/vendor/phpmailer/smtp_config.php';
 
 $email_subject = "Portfolio Contact: " . $subject;
 $email_body = "You have received a new message from your portfolio contact form.\n\n";
